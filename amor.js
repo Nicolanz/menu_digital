@@ -8,6 +8,7 @@ console.log("Que lindo dia tuvimos hoy gabi, descansa");
 console.log("Hay un hotel que reservo gabi");
 console.log("Otra actualizacion");
 console.log("Great!! Now playing with emacs")
+console.log("He pagado mucho dinero")
 
 
 

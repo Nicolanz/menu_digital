@@ -12,4 +12,5 @@ console.log("He pagado mucho dinero")
 console.log("Hoy volvi a bogota")
 console.log("Hoy estamos aplanando el terreno para nuestra casa en minecraft,")
 console.log("Hoy vimos crepusculo, bueno tratamos porque te quedaste dormida!")
+console.log("Hoy te robaron el celular, pero tranqui, de esta nos recuperamos")
 

@@ -1,15 +1,28 @@
-import React from "react";
 
+import React from "react";
+import routes from "./routes";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { map } from "lodash";
+
+console.log("Routes", routes);
 
 export function Navigation() {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<div>Home Page</div>} />
-                <Route path="/about" element={<div>About Page</div>} />
-                <Route path="/contact" element={<div>Contact Page</div>} />
+                {map(routes, (route, index) => {
+                    <Route
+                        key={index}
+                        path={route.path}
+                        exact={route.exact}
+                        render={(props)=> (
+                            <route.layout>
+                                <route.component {...props} />
+                            </route.layout>
+                        )}
+                    />
+                })}
             </Routes>
         </Router>
-    );
+        );
 }

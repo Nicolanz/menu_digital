@@ -9,17 +9,8 @@ import { AdminLayout } from './layouts/AdminLayout';
 export default function App() {
   return (
     <div className="app">
-
-      <AdminLayout> 
-        <ClientLayout>
-          <h1 className='app__title'>Hola mundo</h1>
-          <Navigation />
-          <Button primary>Click me</Button>
-        </ClientLayout>
-
-      </AdminLayout>
-
-
+      <h1 className='app__title'>Hola Mundo.</h1>
+      <Navigation />
     </div>
   );
 }

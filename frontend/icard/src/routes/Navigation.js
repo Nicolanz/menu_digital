@@ -11,18 +11,18 @@ export function Navigation() {
         <Router>
             <Routes>
                 {map(routes, (route, index) => {
-                    <Route
+                    return <Route
                         key={index}
                         path={route.path}
                         exact={route.exact}
-                        render={(props)=> (
+                        element={
                             <route.layout>
-                                <route.component {...props} />
+                                <route.component />
                             </route.layout>
-                        )}
+                        }
                     />
                 })}
             </Routes>
         </Router>
-        );
+    );
 }

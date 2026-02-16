@@ -2,13 +2,13 @@ import React from 'react'
 
 export function AdminLayout(props) {
 
-    const { children } = props
+    console.log("Admin children layout props:");
+    console.log(props.children);
 
     return (
         <div>
-            Admin Layout
-
-            {children}
+            <p>Admin Layout</p>
+            {props.children}
         </div>
     )
 }

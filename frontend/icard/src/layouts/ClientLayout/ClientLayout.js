@@ -2,13 +2,13 @@ import React from 'react'
 
 export function ClientLayout(props) {
 
-    const { children } = props
+    console.log("Client children layout props:");
+    console.log(props.children);
 
     return (
         <div>
             <p>Client Layout</p>
-
-            {children}
+            {props.children}
         </div>
     )
 }

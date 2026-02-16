@@ -14,8 +14,10 @@ console.log("Hoy estamos aplanando el terreno para nuestra casa en minecraft,")
 console.log("Hoy vimos crepusculo, bueno tratamos porque te quedaste dormida!")
 console.log("Hoy te robaron el celular, pero tranqui, de esta nos recuperamos")
 console.log("Nos repusimos del golpe, vamos bien nana")
-<<<<<<< HEAD:amor.js
 console.log("Hoy vine a tu casa, te quiero mucho gabi")
-=======
 console.log("Lectura de gabi")
->>>>>>> 7df105746a45236eb1d9450ba925166e52b77ba4:files/amor.js
+console.log("Hoy es mi cumple")
+console.log("Calculito diferencial")
+console.log("Vine a la sede princpial y hoy np habia clase")
+console.log("I see you")
+console.log("Desde tu casa gabi")

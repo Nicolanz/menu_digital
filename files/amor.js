@@ -1,5 +1,4 @@
 
-
 console.log("TE AMO MUCHO SARA GABRIELA");
 console.log("TE AMO MUCHO SARA GABIIIIII");
 console.log("AMOR, TE AMO");
@@ -28,3 +27,4 @@ console.log("Another log!")
 console.log("Empezaron las ventas en Simpl")
 console.log("Un string simple")
 console.log("Start week")
+console.log("Juanchooooo")
